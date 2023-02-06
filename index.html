@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>Zach's Portfolio</li>
+            <li><a href="#">TBD</a></li>
+            <li><a href="https://www.codingtemple.com/">Coding Temple</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="https://github.com/ZCosco/Coding-Temple23">GitHub</a></li>
+        </ul>
+    </nav>
+    <br>
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1 style="font-size:50px;"">Zach Coscarart</h1>
+            <p>Python Programmer</p>
+        </div>
+    </div>
+
+    <main>
+        <div id="main">
+            <article class="main-articles">
+                <h1 class="headers">About Me</h1>
+                <p class="about-me-p">
+                   Hey guys! I started out taking classes at Washington State University for computer science
+                    but got bogged down by the time it was taking while working. I plan on using this bootcamp to launch my career while still looking to achieve a bachlors later on.
+                     I enjoy hiking, playing basketball, and hanging with friends.
+                </p>
+                <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="data:image/png;base64,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" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://s3.wp.wsu.edu/uploads/sites/2920/2016/09/why_wsu_banner2_990.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="https://www.nme.com/wp-content/uploads/2022/07/Adam-Scott-main-new.jpg" style="width:50%" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </article>
+            <article class="main-articles">
+                <h1 class="headers">Where I'm From</h1>
+                <strong><small>While I currently live in Pullman, I spent most of my life in Yakima, Washington.</small></strong>
+                <figure>
+                    <img src="https://www.yakimawa.gov/images/engage-downtown.png" class="Mountain-Pic">
+                    <figcaption><em>Yakima, Washington</em></figcaption>
+                </figure>
+                <figure >
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Yakima_Welcome_Sign.jpg/180px-Yakima_Welcome_Sign.jpg" class="sign">
+                    <figcaption><em></em></figcaption>
+                </figure>
+                <p style="font-size:large">
+                   Yakima is primarily known for it's centralized location within the state, as well as its prowess in produce. Apples, wine and hops continually flow from the area and as of recent years hops and wine has provided not only monetary value but cultural value as well with festivals only becoming larger and larger.
+                </p>
+            </article>
+        </div>
+        <div id="side">
+            <article class="side-articles" id="profile">
+                <img id="profile-image" src="images/Rock1.jpeg">  
+                <div id="profile-details">
+                    <h2>Zach Coscarart</h2>
+                    <ul>
+                        <li>123 Fake St</li>
+                        <li>Pullman, WA 99163</li>
+                        <li>(509)379-7430</li>
+                        <li><a href="mailto:zachcoscarart@gmail.com">zachcoscarart@gmail.com</a></li>
+                    </ul>
+                </div>  
+            </article>
+            <article class="side-articles">
+                <h1>Work with Me!</h1>
+                <p>
+                    I am always looking for new ideas or partners on projects. If you want to get to know me or wish to work together on a project, let me know in the field below!
+                    
+                </p>
+            </article>
+            <article class="side-articles">
+                <h1>Contact Me</h1>
+                <strong><small>Please allow a few days for me to get back to you</small></strong>
+                <br>
+                <form action="mailto:zachcoscarart@gmail.com" method="POST">
+                    <label for="name"><strong>Name</strong></label>
+                    <br>
+                    <input type="text" id="name" placeholder="Your Name">
+                    <br>
+                    <label for="body"><strong>Message</strong></label>
+                    <br>
+                    <textarea id="body" placeholder="Your Message" rows="5"></textarea>
+                </form>
+            </article>
+        </div>
+    </main>
+    <footer id="footer">
+        <hr>
+        <div>
+            &copy Zach Coscarart 2023
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+</body>
+</html>
